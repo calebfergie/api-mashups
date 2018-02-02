@@ -1,0 +1,38 @@
+body {
+  -webkit-padding-start: 3rem;
+  -webkit-padding-end: 3rem;
+  font: 1.3rem "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+  font: 12px;
+}
+
+footer {
+  -webkit-padding-before: 3rem;
+  height: 2rem;
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+#title {
+  -webkit-padding-before: 1rem;
+  -webkit-padding-after: 1rem;
+  font: 2.5rem "Copperplate", Helvetica, Arial, sans-serif;
+}
+
+#setup {
+  padding: 30px;
+  font: 1.3rem "Lucida Grande", Helvetica, Arial, sans-serif;
+  align-self: flex-end;
+}
+
+#glowjs img {
+  max-width:100%;
+	height:auto;
+}
+
+#help {
+  font: 1rem "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-style: italic;
+}
