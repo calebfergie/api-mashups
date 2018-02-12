@@ -19,7 +19,7 @@ function showCryptoData(data) {
   } else {
     var direction = "negative"
     var dirVerb = "decreased"
-    var operator = "-"
+    var operator = ""
     var color = "red"
   };
   console.log(direction);
