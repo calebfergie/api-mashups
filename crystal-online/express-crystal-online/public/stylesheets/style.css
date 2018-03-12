@@ -21,6 +21,12 @@ footer {
   font: 2.5rem "Copperplate", Helvetica, Arial, sans-serif;
 }
 
+#subtitle {
+  -webkit-padding-before: 1rem;
+  -webkit-padding-after: 1rem;
+  font: 1.5rem "Copperplate", Helvetica, Arial, sans-serif;
+}
+
 #setup {
   padding: 30px;
   font: 1.3rem "Lucida Grande", Helvetica, Arial, sans-serif;
