@@ -1,0 +1,54 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #8df47f;
+}
+
+div {
+  display:inline-block;
+  padding: 10px;
+}
+
+.artistBox {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: #d0e6ef;
+    border-width: 5px;
+    background: #42adf4;
+    text-align: right;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    vertical-align: top;
+}
+
+.highlight {
+background: #7fccff;
+}
+
+#leftButton {
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #d0e6ef;
+  border-width: 5px;
+  background: #42adf4;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+}
+
+#rightButton{
+  border-style: solid;
+  border-radius: 25px;
+  border-color: #d0e6ef;
+  border-width: 5px;
+  background: #42adf4;
+  text-align: center;
+  padding: 20px;
+  margin: 10px;
+  width: 200px;
+}

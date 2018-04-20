@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>
+    Music API Planet
+  </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <h1>Lyrics Analyzer</h1>
+  <form id="artistSearch1" method="post">
+    <label for="aritst1">Search for an artist: </label>
+    <input id="aritst1" type="text" name="aritst1" value="Kendrick Lamar">
+    <input type="submit" value="Load Lyrics">
+  </form>
+  <input id="resetButton" type="button" value="Reset All">
+  <br/>
+  <div id="artistsSpotlight">
+  <div class="artistBox" id="artistBox0" artistName="allArtists">
+    <container class="artistName" id="nameAllAritsts">All Aritsts</container></br>
+    <container class="artistPhoto" id="photoAllAritsts"></container>
+    <container class="artistWordcount" id="wordCountAllAritsts">0 words</container></br>
+    <container class="artistLexicon" id="lexiconAllAritsts"><a href=''>Show Lexicon</a></container>
+  </div>
+  </div>
+<!-- D3 minified library -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- jQuery -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<!--calebfergie script(s)-->
+<script src="../javascripts/lyricLookup.js"></script>
+<script src="../javascripts/interactive.js"></script>
+</html>

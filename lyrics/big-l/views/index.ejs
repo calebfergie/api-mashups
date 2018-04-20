@@ -5,15 +5,28 @@
     <link rel='stylesheet' href='/stylesheets/style.css' />
   </head>
   <body>
-    <form id="artistSearch" method="post">
-      <label for="aritst">Search an Artist: </label>
-      <input id="aritst" type="text" name="aritst" value="Cardi B">
+    <form id="artistSearch1" method="post">
+      <label for="aritst1">Search an artist: </label>
+      <input id="aritst1" type="text" name="aritst1" value="Kendrick Lamar">
       <input type="submit" value="OK">
 </form>
+
+<form id="artistSearch2" method="post">
+  <label for="aritst2">Search another artist: </label>
+  <input id="aritst2" type="text" name="aritst2" value="Cardi B">
+  <input type="submit" value="OK">
+</form>
+
     <h1 id="artistName">Search for an aritst</h1>
+    <div id="lyrics-div">
     <p id="lyrics"></p>
+  </div>
+  <div id="stats-div">
+    <p id="stats"></p>
+  </div>
   </body>
   <!-- jQuery -->
 <script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<!--calebfergie script(s)-->
 <script src="../javascripts/lyricLookup.js"></script>
 </html>
