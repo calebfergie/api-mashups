@@ -1,0 +1,152 @@
+body {
+  padding-left: 50px;
+  padding-right: 20px;
+  padding-top: 10px;
+  background-color: white;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-image: url("https://i.imgur.com/QVbUhUS.jpg");
+  color: white;
+}
+
+a {
+  color: cornflowerblue;
+}
+
+footer {
+  font-size: 12px;
+  text-align: center;
+  background-color: #353a42;
+  position: fixed;
+  width: 100%;
+  margin-top: 10px;
+  left:0px;
+  right:0px;
+  bottom: 0px;
+}
+
+/* p {
+    vertical-align: middle;
+} */
+
+div {
+  display:inline-block;
+  padding: 10px;
+}
+
+h1 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 0px;
+}
+
+h2 {
+  font-family: 'Gloria Hallelujah', cursive;
+  font-size: 15px;
+}
+
+
+rect {
+  fill: white;
+}
+
+#wordLabel {
+  fill: white;
+}
+
+.directionsLead {
+  /* border-style: solid;
+  border-radius: 3px;
+  border-color: #adafb2;
+  border-width: 5px; */
+  /* background: #373a38; */
+  line-height: 14px; /* <-- adjust this */
+  padding: 5px;
+  margin: 10px;
+  height: 4rem;
+  width: 12rem;
+  vertical-align: top;
+}
+
+.directions {
+  border-style: solid;
+  border-radius: 3px;
+  border-color: #adafb2;
+  border-width: 3px;
+  background: #373a38;
+  text-align: center;
+  font-size: 10px;
+  line-height: 14px; /* <-- adjust this */
+  padding: 5px;
+  margin: 10px;
+  height: 4rem;
+  width: 6rem;
+  vertical-align: top;
+}
+
+#directionsTitle {
+    font-weight: bold;
+  font-size: 15px;
+  text-align: left;
+  margin: 0px;
+  line-height: 150%;
+}
+
+#number {
+margin: -6px;
+padding: 0px;
+border: 0px;
+width: 10px;
+border-radius: 3px;
+background-color: #adafb2;
+/* Adjust these values to posiytion the title or label */
+top: 0px;
+left: 0px;
+}
+
+.artistBox {
+    border-style: solid;
+    border-radius: 25px;
+    border-color: cornflowerblue;
+    border-width: 5px;
+    background: #373a38;
+    text-align: right;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    vertical-align: top;
+}
+
+.highlight {
+background: #8f9eb7;
+}
+
+#dataLabel {
+  padding-top: 5px;
+  font-size: 8px;
+  fill: #373a38;
+}
+
+#artistSearch {
+  padding:10px;
+  font-size: 15px;
+}
+
+#artist {
+  font-family: 'Gloria Hallelujah', cursive;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 15px;
+  height: 1.5rem;
+}
+
+.button {
+font-family: 'Gloria Hallelujah', cursive;
+height:2rem;
+background-color: cornflowerblue;
+vertical-align: top;
+color: white;
+text-align: center;
+display: inline-block;
+font-size: 15px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Planet API: Music</title>
+  <link rel='stylesheet' href='/stylesheets/lyrics.css' />
+  <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
+</head>
+
+<body><center>
+  <h1>Artist Lyrics Analyzer</h1>
+  <h2>Which words do artists use most? Build your own lexicon by adding artists to it</h2>
+  <div class="directionsBG">
+  <!-- <div class="directionsLead"><p id="directionsTitle">How it works: <br/>Build your own lexicon by adding artists to it</p></div> -->
+  <div class="directions"><p id=number>1</p><p class="directionsub">Type in an artist and load their lyrics</p></div>
+  <div class="directions"><p id=number>2</p><p class="directionsub">Repeat for as many artists as you want</p></div>
+  <div class="directions"><p id=number>3</p><p class="directionsub">Click on the boxes that appear to see what words they use most</p></div>
+  <div class="directions"><p id=number>4</p><p class="directionsub">Click on the "All Artists" box to see the combination</p></div>
+</div>
+
+  <form id="artistSearch" method="post">
+    <!-- <label for="artist">Add an artist to your lexicon: </label> -->
+    <input id="artist" type="text" name="artist1" value="Cardi B">
+    <input class="button" type="submit" value="Load Lyrics">
+  </form>
+  </center>
+  <!-- <input id="resetButton" type="button" value="Reset All"> -->
+  <br/>
+  <div id="artistsSpotlight">
+    <div class="artistBox" id="artistBox0" artistName="allArtists">
+      <container class="artistName" id="nameAllartists">All Artists</container>
+      </br>
+      <container class="artistPhoto" id="photoAllartists"></container>
+      <container class="artistWordcount" id="wordCountAllartists">0 words</container>
+      </br>
+      <container class="artistLexicon" id="lexiconAllartists">
+    </div>
+  </div>
+    <center>
+  <footer>
+<p>&#169; 2018 <a href="http://calebfergie.com/">Caleb Ferguson</a>    ||    Created using data from <a href="https://developer.musixmatch.com">musixmatch API</a>    ||     Developed for <a href="https://github.com/ITP-Mashups/Mashups">API mashups class</a> @ NYU ITP</p>
+</footer>
+</center>
+</body>
+<!-- jQuery -->
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.3.1.min.js"></script>
+<!-- D3 minified library -->
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<!-- Custom JS megafile -->
+<script src="../javascripts/lyrics.js"></script>
+</html>
